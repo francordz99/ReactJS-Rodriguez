@@ -1,0 +1,61 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.NavBar h3 {
+    margin: 0;
+}
+
+.Categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Option {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.ActiveOption {
+    text-decoration: underline;
+}
+
+.CartWidget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.CartWidget:hover {
+    transform: scale(1.1);
+}
+
+.Title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFF;
+}
+
+.NavBar .Categories a.ActiveOption {
+    font-weight: bold;
+    color: #ff6a00;
+}

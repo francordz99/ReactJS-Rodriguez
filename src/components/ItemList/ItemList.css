@@ -1,0 +1,45 @@
+.ListGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.ListGroupItem {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.ListGroupItem h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.ListGroupItem p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.ListGroupItem img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ListGroupItem button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ListGroupItem button:hover {
+    background-color: #0069d9;
+}

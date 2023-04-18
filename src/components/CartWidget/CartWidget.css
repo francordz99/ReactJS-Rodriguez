@@ -1,0 +1,24 @@
+.CartWidget {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: relative;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.CartWidget:hover {
+    opacity: 0.8;
+}
+
+.CartWidget img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}

@@ -1,0 +1,85 @@
+.ItemDetailContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ItemDetailContainer h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.ItemDetailContainer p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.ItemDetailContainer .ItemDetail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ItemDetailContainer .ItemDetail img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.ItemDetailContainer .ItemDetail .details {
+    max-width: 50%;
+}
+
+.ItemDetailContainer .ItemDetail .details h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ItemDetailContainer .ItemDetail .details p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.ItemDetailContainer .ItemDetail .details .price {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.ItemDetailContainer .ItemDetail .details .counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.ItemDetailContainer .ItemDetail .details .counter button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ItemDetailContainer .ItemDetail .details .counter button:hover {
+    background-color: #f1f1f1;
+}
+
+.ItemDetailContainer .ItemDetail .details .counter .count {
+    font-size: 24px;
+    color: #333;
+}

@@ -1,0 +1,71 @@
+.CardItem {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-out;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.CardItem:hover {
+    transform: translateY(-5px);
+}
+
+.Header {
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.ItemHeader {
+    margin: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ItemImg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Info {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+.ItemFooter {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+}
+
+.Option {
+    background-color: #3385ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out;
+    cursor: pointer;
+}
+
+.Option:hover {
+    background-color: #0066cc;
+}

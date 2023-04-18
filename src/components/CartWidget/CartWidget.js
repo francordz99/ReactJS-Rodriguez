@@ -1,10 +1,12 @@
 import cart from './assets/cart.svg'
+import React from 'react'
+import './CartWidget.css'
 
-const CartWidget = () => {
+const CartWidget = ({ quantity }) => {
     return (
         <div>
-            <img src={cart} alt="cart-widget" />
-            0
+            <img className="icon" src={cart} alt="cart-widget" />
+            {quantity}
         </div>
     )
 }
