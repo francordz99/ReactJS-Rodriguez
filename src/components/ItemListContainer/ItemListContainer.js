@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import React from 'react'
-import { getProducts, getProductsByCategory } from "../../CatalogueItems"
+import { getProducts, getProductsByCategory } from "../../services/firebase/firebaseData"
 import ItemList from '../ItemList/ItemList'
 import { useParams } from "react-router-dom"
 
